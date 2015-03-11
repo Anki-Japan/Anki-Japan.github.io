@@ -49,7 +49,8 @@
       </span>
       </h4>
       
-          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>A base trait for Kanjis and Radicals.
+</p></div><div class="toggleContainer block">
           <span class="toggle">Linear Supertypes</span>
           <div class="superTypes hiddenContent"><a href="Entity.html" class="extype" name="jentities.Entity">Entity</a>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
         </div><div class="toggleContainer block">
@@ -189,7 +190,7 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
-    </li><li name="jentities.KanjiEntry#allElements" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="jentities.KanjiEntry#allElements" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="allElements:Seq[jentities.Radical]"></a>
       <a id="allElements:Seq[Radical]"></a>
       <h4 class="signature">
@@ -205,7 +206,10 @@
         <img src="../lib/permalink.png" />
       </a>
     </span>
-      
+      <p class="shortcomment cmt">The elements this entry is composed of, including the transitive ones.</p><div class="fullcomment"><div class="comment cmt"><p>The elements this entry is composed of, including the transitive ones.
+For example, if A is composed of B and C, and B is composed of E and D, this
+method will return Seq(E, D, B, C), in that order.
+</p></div></div>
     </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="asInstanceOf[T0]:T0"></a>
       <a id="asInstanceOf[T0]:T0"></a>
@@ -279,8 +283,8 @@
         <img src="../lib/permalink.png" />
       </a>
     </span>
-      
-    </li><li name="jentities.KanjiEntry#elements" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <p class="shortcomment cmt">The stroke order diagram of this entry in the SVG format.</p>
+    </li><li name="jentities.KanjiEntry#elements" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="elements:Seq[jentities.Radical]"></a>
       <a id="elements:Seq[Radical]"></a>
       <h4 class="signature">
@@ -296,7 +300,9 @@
         <img src="../lib/permalink.png" />
       </a>
     </span>
-      
+      <p class="shortcomment cmt">The elements this entry is composed of.</p><div class="fullcomment"><div class="comment cmt"><p>The elements this entry is composed of. Note that even some radicals
+are not atomic and can further be decomposed to other elements.
+</p></div></div>
     </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a>
       <a id="eq(AnyRef):Boolean"></a>
@@ -438,7 +444,7 @@
         <img src="../lib/permalink.png" />
       </a>
     </span>
-      
+      <p class="shortcomment cmt">The meanings of this entry.</p>
     </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a>
       <a id="ne(AnyRef):Boolean"></a>
