@@ -1,0 +1,1 @@
+Index.PACKAGES = {"jtext" : [{"object" : "jtext\/TextTokenizer$.html", "name" : "jtext.TextTokenizer"}]};
